@@ -1,0 +1,129 @@
+/* add border margin padding colour */
+article, header, section, footer {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: black
+}
+
+/* article {
+    color: red;
+}
+
+header {
+    color: yellow;
+}
+
+section {
+    color:purple;
+}
+
+footer {
+    color: #82ff33;
+} */
+
+/* layout style */
+header {
+    background: url("image/bg-1.jpg");
+    height: 200px;
+    position: relative;
+    
+}
+section {
+    border: 5px solid #59FF33;
+    position: relative;
+}
+
+section h2 {
+    color: red;
+    background: blue;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+section h3 {
+    color: blue;
+    background: red;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+footer {
+    position: relative;
+}
+
+/* div and span */
+.container {
+    background: url("image/bg-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* div and span-image */
+.bg-1 {
+    transition: all 0.3ms;
+    width: 140px;
+    position: absolute;
+    right: 70px;
+    top: 50%;
+    transform: translate(0, -50%);
+    z-index: 1;
+    border-radius: 90px;
+}
+
+.bg-2 {
+    transition: all 5s;
+    width: 140px;
+    position: absolute;
+    right: 200px;
+    top: 30%;
+    transform: translate(0, -5%);
+    z-index: 2;
+    border-radius: 90px;
+}
+
+
+.bg-3 {
+    width: 140px;
+    position: absolute;
+    right: 150px;
+    top: 5%;
+    color:red;
+    
+
+}
+
+/* div and span-dislay float */
+#s-1 {
+    display: inline-block;
+
+}
+#s-2 {
+    position: absolute;
+    bottom: 20%;
+    right: 20%;
+}
+
+/* div and span-word */
+.w-1 {
+    color:red;
+    font-style: inherit;
+}
+
+.w-2 {
+    color:#3393FF;
+    font-style: inherit;
+}
+
+.w-3 {
+    display:none;
+}
+
+.bg-1:hover, .bg-2:hover, {
+    width: 500px;
+}
